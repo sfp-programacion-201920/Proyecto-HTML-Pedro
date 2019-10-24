@@ -33,25 +33,38 @@
         <p>
             <u><mark>Este es grupo es de los mas importantes<br />
                     y han ganado varios premios<br /></mark> </u>
+
             <figure>
-                <img sizes="(max-width: 320px) 280px,
-                (max-width: 480px) 440px,
-                800px" src="./images/negros.jpeg" alt="Grupo de rap americano" />
-                <figcaption>Esto es simbolo del rap</figcaption>
+                <picture>
+                    <source media="(max-width: 799px)" srcset="./images/negrosmovil.jpeg">
+                    <source media="(min-width: 800px)" srcset="./images/negros.jpeg">
+                    <img src="./images/negros.jpeg" height="354" width="352" alt="Icono de rap">
+                    <figcaption>Este es un grupo de rap americano</figcaption>
+                </picture>
             </figure>
+
             <figure>
-                <img src="./images/RAPimagen.jpg" height="354" width="352" style="float: right;" alt="Icono de rap">
-                <figcaption>Este es un grupo de rap Estadounidense</figcaption>
+                <picture>
+                    <source media="(max-width: 799px)" srcset="./images/RAPimagenmovil.jpg">
+                    <source media="(min-width: 800px)" srcset="./images/RAPimagen.jpg">
+                    <img src="./images/RAPimagen.jpg" height="354" width="352" style="float: right;" alt="Icono de rap">
+                    <figcaption>Esta es una imagen de RAP</figcaption>
+                </picture>
             </figure>
+
             <p>Un cantante español muy famose es Kaseo</p>
 
             <p>
                 <p>
                     <u><mark>Este es kaseo y es uno de los mejores raperos de la historia en españa<br /></mark> </u>
                     <figure>
-                        <img src="./images/kaseo.jpg" height="500" width="400" alt="esta es una imagen de kaseo"
-                            onClick="alert('¡Has hecho clic en la foto!')">
-                        <figcaption>Este es kaseo un rapero español</figcaption>
+                        <picture>
+                            <source media="(max-width: 799px)" srcset="./images/kaseomovil.jpg">
+                            <source media="(min-width: 800px)" srcset="./images/kaseo.jpg">
+                            <img src="./images/kaseo.jpg" height="500" width="400" alt="esta es una imagen de kaseo"
+                                onClick="alert('¡Has hecho clic en la foto!')">
+                            <figcaption>Este es kaseo un rapero español</figcaption>
+                        </picture>
                     </figure>
 </body>
 

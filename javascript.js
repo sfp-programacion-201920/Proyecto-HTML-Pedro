@@ -1,2 +1,2 @@
-alert("Bienvenido a mi pagina de RAP");
+//alert("Bienvenido a mi pagina de RAP");
 //Comentarios

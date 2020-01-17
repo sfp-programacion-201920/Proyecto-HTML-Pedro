@@ -4,3 +4,31 @@ body
     color: grey;
 } 
 /* Estoy poniendo el fondo de la pagina */
+div
+{
+text-align: center;
+}
+main
+{
+    text-align: center;
+    
+}
+section
+{
+    background-color: cadetblue;
+    margin: 15px;
+    padding: 5px;
+}
+
+article
+{
+background-color:greenyellow
+}
+aside
+{
+    color: black;
+    background-color:grey;
+}
+
+.tituloart {
+    color:black;}

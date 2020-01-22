@@ -1,7 +1,7 @@
 body 
 {
     background-color: blanchedalmond;
-    color: grey;
+    color: rgb(92, 81, 81);
 } 
 /* Estoy poniendo el fondo de la pagina */
 div
@@ -16,13 +16,17 @@ main
 section
 {
     background-color: cadetblue;
-    margin: 15px;
-    padding: 5px;
+    margin-bottom: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+   padding: 60px;
 }
 
 article
 {
-background-color:greenyellow
+background-color:greenyellow;
+
+
 }
 aside
 {
@@ -32,3 +36,38 @@ aside
 
 .tituloart {
     color:black;}
+
+.tituloform
+{
+font-size: 30px;
+}
+
+.red
+{
+   background-color: rgb(70, 30, 163); 
+}
+.redart
+{
+    background-color: rgb(206, 64, 64);
+}
+
+.fms
+{
+background-color: goldenrod;
+
+}
+
+.fmsart
+{
+background-color: gray;
+}
+
+.raperos
+{
+background-color: rgba(15, 13, 13, 0.918);
+}
+
+.raperosart
+{
+background-color: gray;
+}

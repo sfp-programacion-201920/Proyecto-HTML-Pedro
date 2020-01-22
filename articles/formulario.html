@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="robots" content="index,follow" />
+    <meta name="description" content="Todas las noticias de rap de ultima hora">
+    <meta name="keywords" content="rap">
+    <meta name="author" content="Pedro Bueno Guerrero">
+    <link rel="icon" href="../icons/icon.png" type="image/png" sizes="500x256">
+    <link rel="stylesheet" href="../estilo.css">
+    <title>NOTICIAS DE RAP</title>
+    <script src="../javascript.js"></script>
+</head>
+
+<body>
+    <u>
+        <h2>FORMULARIO SOBRE RAP</h2>
+    </u>
+    <form action="mailto:pedro.buenoguerrero@gmail.com" method="post" enctype="text/plain" action="#" method="post">
+        <fieldset>
+            <legend>Registrarse</legend>
+            Nombre de Usuario: <input type="text" name="nombre" size="30">
+            <br>
+            <br>
+            Contraseña:<input type="password" name="clave" id="clave" size="8">
+            <br/>
+            <br/>
+            Indique su correo: <input type="email" name="correo" id="correo" size="50">
+            <br>
+            <br>
+            <label for="fecha_nac">Fecha de nacimiento: </label>
+            <input type="date" name="fecha_nac" id="fecha_nac">
+            <br>
+            <br>
+            Foto de Perfil<input type="file" name="foto" id="foto" accept=".jpg, .jpeg, .png" />
+            <br>
+            <br>
+            <input type="checkbox" name="notificaciones" id="notificaciones" value="SI">
+            <label for="sevilla">Recibir Notificaciones</label><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Encuesta</legend>
+            <label for="hora">Indica el horario que te gustaría para las jornadas de la FMS España: </label>
+            <input type="time" name="hora" id="hora" min="09:00" max="18:00">
+            <br>
+            <br>
+            <label for="micolor">Indica de que color te gustarían las camisetass de FMS España de 2020/2021:</label>
+            <input type="color" name="color" id="color" value="#0">
+            <br>
+            <br>
+            <label for="range">Indique cuánto te ha gustado esta temporada de FMS España (de 0 a 10, de 1 en 1):</label> <br> <br>
+            <input type="range" name="range" id="range" min="0" max="10" step="1">
+            <br>
+            <br>
+            ¿Cuál ha sido tu MC favorito de esta temporada?
+            <br>    
+            <br>
+        <input type="radio" name="raperofavorito" id="Chuty" value="Chuty">
+        <label for="Chuty">Chuty</label> <br>
+
+       <input type="radio" name="raperofavorito" id="Skone" value="Skone">
+       <label for="Skone">Skone</label> <br>
+
+       <input type="radio" name="raperofavorito" id="Bnet" value="Bnet">
+       <label for="Bnet">Bnet</label><br>
+
+       <input type="radio" name="raperofavorito" id="Blon" value="Blon">
+       <label for="Blon">Blon</label> <br>
+
+       <input type="radio" name="raperofavorito" id="Errecé" value="Errecé">
+       <label for="Errecé">Errecé</label> <br>
+
+       <input type="radio" name="raperofavorito" id="Walls" value="Walls">
+       <label for="Walls">Walls</label> <br>
+
+       <input type="radio" name="raperofavorito" id="Mr. Ego" value="Mr. Ego">
+       <label for="Mr. Ego">Mr. Ego</label><br>
+
+       <input type="radio" name="raperofavorito" id="Zasko" value="Zasko">
+       <label for="Zasko">Zasko</label> <br>
+
+       <input type="radio" name="raperofavorito" id="Force" value="Force">
+       <label for="Force">Force</label><br>
+
+       <input type="radio" name="raperofavorito" id="BTA" value="BTA">
+       <label for="BTA">BTA</label> <br>
+        </fieldset>
+        <button type="submit" value="boton" name="boton" id="boton">Enviar</button>
+        <button type="reset" value="reset" name="reset" id="reset">Restablecer valores</button>
+
+    </form>
+</body>
+
+</html>

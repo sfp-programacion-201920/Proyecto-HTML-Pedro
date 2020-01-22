@@ -21,12 +21,11 @@
 
 <body>
     <header>
-        <figure>
+        <figure style="text-align: center;">
             <picture>
                 <source media="(max-width: 799px)" srcset="./images/fotoscabecera/cabecerafinalmovil.jpg">
                 <source media="(min-width: 800px)" srcset="./images/fotoscabecera/cabecerafinal.jpg">
-                <img src="./images/fotoscabecera/cabecerafinal.jpg" alt="Eminem"
-                    style="float: inherit; margin: 0px 0px 0px 390px">
+                <img src="./images/fotoscabecera/cabecerafinal.jpg" alt="Eminem">
             </picture>
         </figure>
         <div>
@@ -41,27 +40,25 @@
         <h2> <b>Lista de Noticias</b></h2>
         <ul>
             <!-- Índice de noticias -->
-            <li><a href="#1">Eminem, investigado por el Servicio Secreto por supuestas amenazas a Donald
-                    Trump</a></li>
-            <li><a href="#2">Trueno se corona campeón de la Batalla de los gallos de Argentina con 17
-                    años</a></li>
-            <li><a href="#3">Ascenso FMS España 2019</a></li>
-            <li><a href="#4">Teorema: ¿qué pasará con 'Teo' tras ser acusado de abuso sexual por
-                    expareja Ámbar?</a></li>
+            <li><a href="#1">SECCIÓN RAPEROS</a></li>
+            <li><a href="#2">SECCIÓN REDBULL</a></li>
+            <li><a href="#3">SECCIÓN FMS</a></li>
         </ul>
+        <a href="../Proyecto-HTML-Pedro/articles/formulario.html" class="tituloform">Formulario</a>
     </nav>
 
     <hr style="border-color: black;">
-    <a id="eminem"></a>
+    
     <a id="1"></a>
     <main>
-        <section>
+        <section class="raperos">
             <span>
                 <h1 class="tituloart">
                     SECCIÓN DE RAPEROS
                 </h1>
             </span>
-            <article>
+            <a id="eminem"></a>
+            <article class="raperosart">
                 <h2><a href="./articles/eminem.html">Eminem, investigado por el Servicio Secreto por supuestas amenazas
                         a Donald
                         Trump</a></h2>
@@ -76,17 +73,31 @@
                     <figcaption><a href="articles/eminem.html">Click aqui para ver noticia completa</a></figcaption>
                 </figure>
             </article>
+            <a id="juice"></a>
+            <article class="raperosart">
+                <h2><a href="./articles/juice.html">Triunfo y muerte de una generación de estrellas del rap</a></h2>
+                <figure>
+                    <a href="articles/juice.html">
+                        <picture>
+                            <source media="(max-width: 799px)" srcset="./images/juiceworld/juicemovil.jpg">
+                            <source media="(min-width: 800px)" srcset="./images/juiceworld/juice.jpg">
+                            <img src="./images/juiceworld/juice.jpg" alt="Juice World">
+                        </picture>
+                    </a>
+                    <figcaption><a href="./articles/juice.html">Click aqui para ver noticia completa</a></figcaption>
+                </figure>
+            </article>
         </section>
         <br>
-        <a id="trueno"></a>
         <a id="2"></a>
-        <section>
+        <section class="red">
             <span>
                 <h1 class="tituloart">
                     SECCIÓN DE REDBULL
                 </h1>
             </span>
-            <article>
+            <a id="trueno"></a>
+            <article class="redart">
                 <h2><a href="./articles/trueno.html">Trueno se corona campeón de la Batalla de los gallos de Argentina
                         con 17
                         años</a></h2>
@@ -103,15 +114,15 @@
             </article>
         </section>
         <br>
-        <a id="ascenso"></a>
         <a id="3"></a>
-        <section>
+        <section class="fms">
             <span>
                 <h1 class="tituloart">
                     SECCIÓN DE FMS
                 </h1>
             </span>
-            <article>
+            <a id="ascenso"></a>
+            <article class="fmsart">
                 <h2><a href="./articles/ascenso.html">Ascenso FMS España 2019</a></h2>
                 <figure>
                     <a href="articles/ascenso.html">
@@ -124,9 +135,9 @@
                     <figcaption><a href="articles/ascenso.html">Click aqui para ver noticia completa.</a></figcaption>
                 </figure>
             </article>
-            <a id="teorema"></a>
             <a id="4"></a>
-            <article>
+            <a id="teorema"></a>
+            <article class="fmsart">
                 <h2><a href="./articles/teorema.html">Teorema: ¿qué pasará con 'Teo' tras ser acusado de abuso sexual
                         por
                         expareja Ámbar?</a></h2>

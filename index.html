@@ -12,6 +12,7 @@
     <meta name="author" content="Pedro Bueno Guerrero">
     <link rel="icon" href="./icons/icon.png" type="image/png" sizes="500x256">
     <link rel="stylesheet" href="estilo.css">
+    <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
     <title>NOTICIAS DE RAP</title>
     <script src="javascript.js"></script>
     <!--Estos son los metadatos-->
@@ -19,7 +20,7 @@
 
 </head>
 
-<body>
+<body class="body" class="colorindex">
     <header>
         <figure style="text-align: center;">
             <picture>
@@ -29,26 +30,23 @@
             </picture>
         </figure>
         <div>
-            <h1>🎤NOTICIAS DE RAP🎤</h1>
+            <h1 class="colorindex">🎤NOTICIAS DE RAP🎤</h1>
         </div>
-        <hr style="border-color:black;">
-        <a id="inicio"></a>
-        <h4><a href="#final"> Ir al final de la página</a></h4>
-        <hr style="border-color: black;">
     </header>
-    <nav>
-        <h2> <b>Lista de Noticias</b></h2>
-        <ul>
-            <!-- Índice de noticias -->
-            <li><a href="#1">SECCIÓN RAPEROS</a></li>
-            <li><a href="#2">SECCIÓN REDBULL</a></li>
-            <li><a href="#3">SECCIÓN FMS</a></li>
-        </ul>
-        <a href="../Proyecto-HTML-Pedro/articles/formulario.html" class="tituloform">Formulario</a>
-    </nav>
-
-    <hr style="border-color: black;">
+    <nav class="nav">
+        <hr style="border-color: black;">
+        <div style="text-align: center;"> <a href="../Proyecto-HTML-Pedro/articles/formulario.html"><img
+                    src="./images/nav/button_formulario.png" alt=""></a> <a href="#1"><img
+                    src="./images/nav/button_seccion-de-raperos.png" alt=""></a> <a href="#2"><img
+                    src="./images/nav/button_seccion-de-redbull.png" alt=""></a> <a href="#3"><img
+                    src="./images/nav/button_seccion-de-fms.png" alt=""></a> </div>
     
+    <hr style="border-color: black;"> <a id="inicio"></a>
+    <h4><a href="#final"> Ir al final de la página</a></h4>
+    <hr style="border-color: black;">
+</nav>
+
+
     <a id="1"></a>
     <main>
         <section class="raperos">
@@ -67,7 +65,7 @@
                         <picture>
                             <source media="(max-width: 799px)" srcset="./images/eminem/eminemmovil.jpg">
                             <source media="(min-width: 800px)" srcset="./images/eminem/eminem.jpg">
-                            <img src="./images/eminem/eminem.jpg" alt="Eminem">
+                            <img src="./images/eminem/eminem.jpg" alt="Eminem" class="opacidad">
                         </picture>
                     </a>
                     <figcaption><a href="articles/eminem.html">Click aqui para ver noticia completa</a></figcaption>
@@ -81,7 +79,7 @@
                         <picture>
                             <source media="(max-width: 799px)" srcset="./images/juiceworld/juicemovil.jpg">
                             <source media="(min-width: 800px)" srcset="./images/juiceworld/juice.jpg">
-                            <img src="./images/juiceworld/juice.jpg" alt="Juice World">
+                            <img src="./images/juiceworld/juice.jpg" alt="Juice World" class="opacidad">
                         </picture>
                     </a>
                     <figcaption><a href="./articles/juice.html">Click aqui para ver noticia completa</a></figcaption>
@@ -106,7 +104,7 @@
                         <picture>
                             <source media="(max-width: 799px)" srcset="./images/trueno/truenomovil.jpg">
                             <source media="(min-width: 800px)" srcset="./images/trueno/trueno.jpg">
-                            <img src="./images/trueno/trueno.jpg" alt="trueno">
+                            <img src="./images/trueno/trueno.jpg" alt="trueno" class="opacidad">
                         </picture>
                     </a>
                     <figcaption><a href="articles/trueno.html">Click aqui para ver noticia completa.</a></figcaption>
@@ -114,13 +112,14 @@
             </article>
             <a id="bnet"></a>
             <article class="redart">
-                <h2><a href="./articles/bnet.html">Bnet se corona Campeón Internacional de Red Bull Batalla de los Gallos</a></h2>
+                <h2><a href="./articles/bnet.html">Bnet se corona Campeón Internacional de Red Bull Batalla de los
+                        Gallos</a></h2>
                 <figure>
                     <a href="articles/bnet.html">
                         <picture>
                             <source media="(max-width: 799px)" srcset="./images/bnet/bnetmovil.jpg">
                             <source media="(min-width: 800px)" srcset="./images/bnet/bnet.jpg">
-                            <img src="./images/bnet/bnet.jpg" alt="bnet">
+                            <img src="./images/bnet/bnet.jpg" alt="bnet" class="opacidad">
                         </picture>
                     </a>
                     <figcaption><a href="articles/bnet.html">Click aqui para ver noticia completa.</a></figcaption>
@@ -143,7 +142,7 @@
                         <picture>
                             <source media="(max-width: 799px)" srcset="./images/ascenso/ascensomovil.jpg">
                             <source media="(min-width: 800px)" srcset="./images/ascenso/ascenso.jpg">
-                            <img src="./images/ascenso/ascenso.jpg" alt="FMS España">
+                            <img src="./images/ascenso/ascenso.jpg" alt="FMS España" class="opacidad">
                         </picture>
                     </a>
                     <figcaption><a href="articles/ascenso.html">Click aqui para ver noticia completa.</a></figcaption>
@@ -160,7 +159,7 @@
                         <picture>
                             <source media="(max-width: 799px)" srcset="./images/teorema/teoremamovil.jpg">
                             <source media="(min-width: 800px)" srcset="./images/teorema/teorema.jpg">
-                            <img src="./images/teorema/teorema.jpg" alt="Teorema">
+                            <img src="./images/teorema/teorema.jpg" alt="Teorema" class="opacidad">
                         </picture>
                     </a>
                     <figcaption><a href="articles/teorema.html">Click aqui para ver noticia completa.</a></figcaption>
@@ -171,7 +170,7 @@
     <aside>
         <hr style="border-color:black;">
         <div>
-            <h3>Ejemplo de Base de RAP</h3>
+            <h3 class="base">Ejemplo de Base de RAP</h3>
 
             <audio controls="controls">
                 <source src="sounds/base.ogg" type="audio/ogg">
@@ -179,11 +178,13 @@
             </audio>
         </div>
     </aside>
+    <footer class="nav">
     <hr style="border-color:black;">
-
-    <footer>
-        <a id="final"></a>
-        <h4><a href="#inicio"> Ir al inicio de la página</a></h4>
+    <a id="final"></a>
+    <h4 class="nav"><a href="#inicio"> Ir al inicio de la página</a></h4> 
+   
+       <p style="color: black;">Pedro Bueno Guerrero, Programación  B, curso 2019-2020</p>
+       <img src="./images/redessociales.png" alt="" >
     </footer>
 </body>
 

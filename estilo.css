@@ -103,6 +103,7 @@ img:hover
 {
     background-image: url(/Proyecto-HTML-Pedro/images/fondos/wiz.jpg);
     background-attachment: fixed;
+    color: white;
 }
 
 .colorindex
